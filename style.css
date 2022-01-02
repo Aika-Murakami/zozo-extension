@@ -1,0 +1,28 @@
+.img-buttons {
+  z-index: 50;
+  padding: 10px;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-button {
+  margin-bottom: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-button:hover{
+  opacity: 0.8;
+}
+
+
+.img-button:active{
+  -webkit-box-shadow: none;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "fashionExtention",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "img/face.png"
+  ],
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "description": "ZOZOTOWNの服画像に顔ハメして似合う服を明らかにするための拡張です。",
+  "content_scripts": [{
+    "matches": ["https://zozo.jp/shop/*"],
+    "css":[
+      "style.css"
+    ],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
