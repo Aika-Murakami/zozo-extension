@@ -1,9 +1,14 @@
 "use strict"
 
+// 拡張機能のID
+var extensionId = "hcgadnflkplbdaoennglfolndecmbilo";
+
 // パーツを追加する
 var imgelem = document.getElementById("prevNextCtrl");
-var addCode = "<img src='chrome-extension://hcgadnflkplbdaoennglfolndecmbilo/img/face.png' class='drag_img' style='z-index: 50; height: 20%; position: relative; cursor:pointer;' id='drag_img'></img><div class='img-buttons'><input class='img-button' type='button' value='←' id='kaitenLeft'><input class='img-button' type='button' value='→' id='kaitenRight'><input class='img-button' type='button' value='+' id='zoomIn'><input class='img-button' type='button' value='-' id='zoomOut'></div>";
+var addCode = "<img src='chrome-extension://"+extensionId+"/img/face.png' class='drag_img' style='z-index: 50; height: 20%; position: relative; cursor:pointer;' id='drag_img'></img><div class='img-buttons'><input class='img-button' type='button' value='←' id='kaitenLeft'><input class='img-button' type='button' value='→' id='kaitenRight'><input class='img-button' type='button' value='+' id='zoomIn'><input class='img-button' type='button' value='-' id='zoomOut'></div>";
 imgelem.insertAdjacentHTML('beforeend', addCode);
+
+console.log(addCode);
 
 // 画像をドラッグ可能にする
 var dragobject={

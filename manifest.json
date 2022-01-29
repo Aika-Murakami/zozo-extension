@@ -1,5 +1,5 @@
 {
-  "name": "fashionExtention",
+  "name": "fashionExtension",
   "version": "1.0.0",
   "manifest_version": 2,
   "web_accessible_resources": [
@@ -10,7 +10,7 @@
     "48": "img/icon48.png",
     "128": "img/icon128.png"
   },
-  "description": "ZOZOTOWNの服画像に顔ハメして似合う服を明らかにするための拡張です。",
+  "description": "ZOZOTOWNの商品詳細ページの画像の上に自分の顔を載せることで、試着をせずとも自分に似合う服がわかるようになるChrome拡張",
   "content_scripts": [{
     "matches": ["https://zozo.jp/shop/*"],
     "css":[
