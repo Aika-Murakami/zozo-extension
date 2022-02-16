@@ -19,4 +19,4 @@ ZOZOTOWNの商品詳細ページを開き、上の画像のように生首を操
 
 ※生首表示が不要な場合は拡張機能をOFFにしてください
 
-※「https://zozo.jp/shop/」配下のページにのみ作動します
+※「[https://zozo.jp/shop/](https://zozo.jp/shop/)」配下のページにのみ作動します
