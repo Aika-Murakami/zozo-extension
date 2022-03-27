@@ -1,7 +1,7 @@
 "use strict"
 
 // 拡張機能のID
-var extensionId = "[Chrome拡張のIDを入力する]";
+var extensionId = chrome.runtime.id;
 
 // パーツを追加する
 var imgelem = document.getElementById("prevNextCtrl");
